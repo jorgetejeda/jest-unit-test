@@ -1,0 +1,30 @@
+{
+  "name": "pruebas-unitarias",
+  "version": "1.0.0",
+  "description": "Tutorial de pruebas unitarias",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "test",
+    "unitarias",
+    "pruebas"
+  ],
+  "author": "Jorge Tejeda <jorgetejeda0804@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-jest": "^27.0.5",
+    "babel-polyfill": "^6.26.0",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "jest": "^27.0.5"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.23",
+    "axios": "^0.21.1"
+  }
+}
