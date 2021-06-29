@@ -28,3 +28,6 @@ describe("Es hora de las instantaneas", () => {
     });
   });
 });
+
+// To overwrite the old snapshot we need to write
+// npm test -- -u
